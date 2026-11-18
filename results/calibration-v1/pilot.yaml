@@ -1,0 +1,17 @@
+version: 1
+models:
+  - qwen3:4b-instruct-2507-q4_K_M
+  - gemma4:12b-it-qat
+num_ctx: 49152
+num_predict: 160
+temperature: 0
+seed: 20261118
+timeout_seconds: 180
+budget_fraction: 0.25
+budget_floor_bytes: 2000
+mandatory_arms: [B0, B1, B3]
+compression_arm: B5
+compression_tasks_per_family: 4
+stress_parents_per_family: 2
+bootstrap_replicates: 10000
+retry_policy: no_retries_errors_count_as_failures

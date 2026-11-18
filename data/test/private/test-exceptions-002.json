@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-674073"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R810968","value":true},"state":{"balance":1166,"released":0,"status":"pending","target":"PO-674073"},"support":["R172354","R441386","R810968","R846592","R873894"]}

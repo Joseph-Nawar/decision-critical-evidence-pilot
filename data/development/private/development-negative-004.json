@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-310559"},"complete_needed":false,"counterfactual":{"field":"active","id":"R383445","value":false},"state":{"balance":1108,"released":0,"status":"pending","target":"PO-310559"},"support":["R383445"]}

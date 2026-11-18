@@ -1,0 +1,1 @@
+{"action":{"amount":127,"decision":"APPROVE","target":"PO-152954"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R873668","value":false},"state":{"balance":1127,"released":0,"status":"pending","target":"PO-152954"},"support":["R274643","R428592","R616497","R829997","R873668"]}

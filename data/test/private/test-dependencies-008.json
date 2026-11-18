@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-797093"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R114074","value":true},"state":{"balance":1085,"released":0,"status":"pending","target":"PO-797093"},"support":["R114074","R144364","R420782","R639881","R978455"]}

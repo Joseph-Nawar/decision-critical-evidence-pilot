@@ -1,0 +1,1 @@
+{"action":{"amount":56,"decision":"APPROVE","target":"PO-991976"},"complete_needed":true,"counterfactual":{"field":"amount","id":"R324370","value":31},"state":{"balance":1056,"released":0,"status":"pending","target":"PO-991976"},"support":["R138510","R197859","R275570","R324370","R588792","R681586","R780805"]}

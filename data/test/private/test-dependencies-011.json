@@ -1,0 +1,1 @@
+{"action":{"amount":197,"decision":"APPROVE","target":"PO-583698"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R385444","value":false},"state":{"balance":1197,"released":0,"status":"pending","target":"PO-583698"},"support":["R119383","R385444","R572361","R614568","R654401"]}

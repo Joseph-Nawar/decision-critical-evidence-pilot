@@ -1,0 +1,1 @@
+{"action":{"amount":134,"decision":"APPROVE","target":"PO-825066"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R954705","value":false},"state":{"balance":1134,"released":0,"status":"pending","target":"PO-825066"},"support":["R301862","R592575","R807878","R954705","R990967"]}

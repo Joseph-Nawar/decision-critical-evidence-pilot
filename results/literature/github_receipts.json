@@ -1,0 +1,1539 @@
+{
+  "retrieved_date": "2026-11-18",
+  "timezone": "Africa/Cairo",
+  "method": "GitHub connector fetch; static source inspection only, no remote repository code executed",
+  "snapshots": [
+    {
+      "url": "https://github.com/LongFuncEval/toolJSONprocessing/blob/main/README.md",
+      "kind": "file",
+      "characters": 1682,
+      "verbatim_snapshot": "# JSON Processor This is the repo for the paper [How Good"
+    },
+    {
+      "url": "https://github.com/LongFuncEval/toolJSONprocessing/tree/main/experimental_scripts",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "experimental_scripts/__init__.py",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "type": "file"
+        },
+        {
+          "path": "experimental_scripts/counterfactuals.py",
+          "sha": "1cffb6f1c10999b6c2a8ae6ec6c1bf3a04e52331",
+          "size": 5540,
+          "type": "file"
+        },
+        {
+          "path": "experimental_scripts/qa_aggregation.py",
+          "sha": "97338709c1c4d2fb23dabef5d4ad1373af5398f3",
+          "size": 9882,
+          "type": "file"
+        },
+        {
+          "path": "experimental_scripts/qa_classifier.py",
+          "sha": "26c9784b6fcc1238bbe8277e6bbf02e0df4a7b4e",
+          "size": 6643,
+          "type": "file"
+        },
+        {
+          "path": "experimental_scripts/qa_comparison.py",
+          "sha": "1ace2d828c1bc8c5fc80c3043330114646e199b2",
+          "size": 4119,
+          "type": "file"
+        },
+        {
+          "path": "experimental_scripts/qa_evaluation.py",
+          "sha": "68197a08bbc80642cff533a04330fefeed78f3c7",
+          "size": 6467,
+          "type": "file"
+        },
+        {
+          "path": "experimental_scripts/qa_inference.py",
+          "sha": "cce9ce2416fc2d74c204a8f91e656e2ed656af45",
+          "size": 12119,
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/LongFuncEval/toolJSONprocessing/blob/main/experimental_scripts/qa_evaluation.py",
+      "kind": "file",
+      "characters": 6467,
+      "verbatim_snapshot": "import os import json from multiprocessing import Pool from generate_qa_pairs.tasks import evals",
+      "github_blob_sha": "68197a08bbc80642cff533a04330fefeed78f3c7"
+    },
+    {
+      "url": "https://github.com/LongFuncEval/toolJSONprocessing/blob/main/experimental_scripts/qa_inference.py",
+      "kind": "file",
+      "characters": 12119,
+      "verbatim_snapshot": "import json import os import types from typing import Any from multiprocessing",
+      "github_blob_sha": "cce9ce2416fc2d74c204a8f91e656e2ed656af45"
+    },
+    {
+      "url": "https://github.com/LongFuncEval/toolJSONprocessing/tree/main/generate_qa_pairs",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "generate_qa_pairs/README.md",
+          "sha": "922c5433db2160b602dcf3356d3730adab0439f0",
+          "size": 1099,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/__init__.py",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/data",
+          "sha": "1e5a63183441c8fd070676e569120adbda6729d0",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "generate_qa_pairs/qa_pairs_generation.py",
+          "sha": "ec2cdab7ab23e846b6ae60781ae35f9cc10f3d8e",
+          "size": 5080,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/task_list.py",
+          "sha": "4c1cb2927397f2cad80f5e41aa3b1fbd74f2bcd2",
+          "size": 186189,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/tasks",
+          "sha": "75692f87684bb75cc95976bf2d118ddff3022ca5",
+          "size": 0,
+          "type": "dir"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/LongFuncEval/toolJSONprocessing/tree/main/generate_qa_pairs/tasks",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "generate_qa_pairs/tasks/SEC_filings.py",
+          "sha": "d5908767a9d3e11e840ce4e681fa64d68dfaf105",
+          "size": 29722,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/tasks/__init__.py",
+          "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/tasks/base.py",
+          "sha": "7d32c03412c2e764733723b9cc6f5e2d02a625d9",
+          "size": 1779,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/tasks/booking_get_seat_map.py",
+          "sha": "297aa8c27ebc95286b77f69b1816ef7234c5c25b",
+          "size": 13965,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/tasks/booking_rooms_with_availability.py",
+          "sha": "da3072741932c6c95986c0f6da8a07667b70bead",
+          "size": 13667,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/tasks/booking_search_car_rentals.py",
+          "sha": "f3169b3cd4513aba5ce0fe6f0aeca06d0265f0f8",
+          "size": 11724,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/tasks/booking_search_hotel_by_coordinates.py",
+          "sha": "9d7f224710fa5ed131d17b5413c663183efd6407",
+          "size": 10940,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/tasks/data_structures.py",
+          "sha": "ad09addd487e286d67a08ef8c0b09e6331144e0d",
+          "size": 792,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/tasks/evals.py",
+          "sha": "27868f845356a046bc9a084662ff209417bc055d",
+          "size": 11455,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/tasks/product_details_shoes.py",
+          "sha": "d4080bcec7f5a40f9d450f888be6a4c13b485ea1",
+          "size": 33827,
+          "type": "file"
+        },
+        {
+          "path": "generate_qa_pairs/tasks/utils.py",
+          "sha": "27504586cc1f17403abe8f0d3de07f7956856e3f",
+          "size": 5389,
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/LongFuncEval/toolJSONprocessing/blob/main/generate_qa_pairs/tasks/evals.py",
+      "kind": "file",
+      "characters": 11455,
+      "verbatim_snapshot": "import re from typing import Any from generate_qa_pairs.tasks.utils import generate from sentence_transformers",
+      "github_blob_sha": "27868f845356a046bc9a084662ff209417bc055d"
+    },
+    {
+      "url": "https://github.com/LongFuncEval/toolJSONprocessing/tree/main/generate_qa_pairs/data",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "generate_qa_pairs/data/api_responses",
+          "sha": "d680ada16fe609eed76e00935d1bf0f439cc9a42",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "generate_qa_pairs/data/qa_pairs",
+          "sha": "f3262cfae6458175e1ad4adfdaae032b8dc07e43",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "generate_qa_pairs/data/schemas",
+          "sha": "d159e1d345ff467a9ee9e041f7178e8e825540eb",
+          "size": 0,
+          "type": "dir"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/KRLabsOrg/squeez/tree/main",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": ".github",
+          "sha": "cadcc52d0eadfd363820eda031af6ef61d1117c3",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": ".gitignore",
+          "sha": "0707a79a1733e8d4e640592b93589dff689ad368",
+          "size": 319,
+          "type": "file"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha": "9280fe98ea7106b211a3ed6fdc3f987092a74d91",
+          "size": 3531,
+          "type": "file"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha": "0ed8b3e52ae0f7d9e8127c38715d94bde4d1f7bb",
+          "size": 2714,
+          "type": "file"
+        },
+        {
+          "path": "LICENSE",
+          "sha": "7737efe454f10092971183d6cf3900b728fccd2f",
+          "size": 10752,
+          "type": "file"
+        },
+        {
+          "path": "README.md",
+          "sha": "74371d10830be3f916e94f889ee2233bc53f549e",
+          "size": 10322,
+          "type": "file"
+        },
+        {
+          "path": "TRAINING.md",
+          "sha": "47fb4a4f270a282a24039a5bdc47e5e5bbd575c2",
+          "size": 4316,
+          "type": "file"
+        },
+        {
+          "path": "assets",
+          "sha": "a4cf33b55533c7e8244bc20a1c3eace851f79970",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "blog",
+          "sha": "7c95f5c4d1fa4469e17c1aec4bf1c1fbad448942",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "configs",
+          "sha": "d37743a6ddee542d3362181103a6d9988bee19a3",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "docs",
+          "sha": "9249202e38e49563ae5403eac7f5e33907d310fe",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "mkdocs.yml",
+          "sha": "05621d132f2035ba80f6912900765960766741ec",
+          "size": 2261,
+          "type": "file"
+        },
+        {
+          "path": "pyproject.toml",
+          "sha": "75819e3af1b00752d1468e9f762488baabf666c9",
+          "size": 1641,
+          "type": "file"
+        },
+        {
+          "path": "requirements-encoder.txt",
+          "sha": "435cc10f2fdec0cc535cd6eca9cc95c3dea9f6e3",
+          "size": 49,
+          "type": "file"
+        },
+        {
+          "path": "requirements-train.txt",
+          "sha": "b3f02ecd548a393940ed64ff28c8f475ae62e387",
+          "size": 114,
+          "type": "file"
+        },
+        {
+          "path": "scripts",
+          "sha": "9f5c981c347f11d9ef0898016bde4af2f000eb47",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "squeez",
+          "sha": "a9edbaf0a58a914a3da060e7ec79195b95bf9a88",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "tests",
+          "sha": "fb44f20d4d4dacb1f55cd9b413557b7891d15620",
+          "size": 0,
+          "type": "dir"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/KRLabsOrg/squeez/blob/main/README.md",
+      "kind": "file",
+      "characters": 10314,
+      "verbatim_snapshot": "# Squeez <p align=\"center\"> <img src=\"https://github.com/KRLabsOrg/squeez/blob/main/assets/squeez_mascot.png?raw=true\" alt=\"Squeez Logo\" width=\"300\"/> <br><em>Squeeze out the",
+      "github_blob_sha": "74371d10830be3f916e94f889ee2233bc53f549e"
+    },
+    {
+      "url": "https://github.com/KRLabsOrg/squeez/tree/main/squeez",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "squeez/__init__.py",
+          "sha": "5771a36398c9fdb1c9c5eceba43454071d6b1168",
+          "size": 619,
+          "type": "file"
+        },
+        {
+          "path": "squeez/__main__.py",
+          "sha": "c153650fc4f7d3bbc2e26401e3c58049905ef287",
+          "size": 135,
+          "type": "file"
+        },
+        {
+          "path": "squeez/cli.py",
+          "sha": "f93a3beba5c4256076866c22ee04867c8d67d8ed",
+          "size": 3488,
+          "type": "file"
+        },
+        {
+          "path": "squeez/data",
+          "sha": "1928dc7bcb599840e561bb2f18ff7a519629d85a",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "squeez/encoder",
+          "sha": "9000cedbb82a56bd262b4235e13a23c40ae1cdb1",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "squeez/inference",
+          "sha": "2d653f350feedc22966ab5b24b4dfd79e44f8867",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "squeez/training",
+          "sha": "a974420bd414a7203b1e68887876c7f7b8aee416",
+          "size": 0,
+          "type": "dir"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/KRLabsOrg/squeez/tree/main/squeez/inference",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "squeez/inference/__init__.py",
+          "sha": "ac4d4c9181b08f6d381343a58610374f6d9551fc",
+          "size": 49,
+          "type": "file"
+        },
+        {
+          "path": "squeez/inference/extractor.py",
+          "sha": "b9506b983e6b1b74daa88b59650b1846e37cd5c1",
+          "size": 26214,
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/KRLabsOrg/squeez/blob/main/squeez/inference/extractor.py",
+      "kind": "file",
+      "characters": 26188,
+      "verbatim_snapshot": "\"\"\"Runtime tool output extractor for agent integration. Four backends: - vLLM: connects",
+      "github_blob_sha": "b9506b983e6b1b74daa88b59650b1846e37cd5c1"
+    },
+    {
+      "url": "https://github.com/chaturvediabhay24/opencode",
+      "kind": "repository",
+      "metadata": {
+        "full_name": "chaturvediabhay24/opencode",
+        "created_at": "2026-10-16T14:15:14Z",
+        "pushed_at": "2026-10-20T10:38:21Z",
+        "default_branch": "main",
+        "license": null
+      }
+    },
+    {
+      "url": "https://github.com/chaturvediabhay24/opencode/tree/main",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": ".gitignore",
+          "sha": "3bdd52eb2e05a5bd79dbb843a3f85f68274d73d9",
+          "size": 30,
+          "type": "file"
+        },
+        {
+          "path": "README.md",
+          "sha": "077a099fa43284d02624ed0114282a0388e0b72c",
+          "size": 2544,
+          "type": "file"
+        },
+        {
+          "path": "bun.lock",
+          "sha": "799d968fb04e83aaa3d14a75471a7e4c669c4366",
+          "size": 8616,
+          "type": "file"
+        },
+        {
+          "path": "package.json",
+          "sha": "1a153db8feb18d7f2e12667bad982feb1f345dc5",
+          "size": 551,
+          "type": "file"
+        },
+        {
+          "path": "src",
+          "sha": "07a6e15cd487b44212c8e3dce40f8a81144a1b8b",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "test",
+          "sha": "c45649bbf1e2f89e95bbda6e95f9ab0c90e0b230",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "tsconfig.json",
+          "sha": "71ddbaced43f0b724e75337a76c0ae711e95527e",
+          "size": 289,
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/chaturvediabhay24/opencode/blob/main/README.md",
+      "kind": "file",
+      "characters": 2544,
+      "verbatim_snapshot": "# OpenCode DTOC plugin Dynamic Tool Output Compression for OpenCode. This plugin",
+      "github_blob_sha": "077a099fa43284d02624ed0114282a0388e0b72c"
+    },
+    {
+      "url": "https://github.com/chaturvediabhay24/opencode/tree/main/src",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "src/index.ts",
+          "sha": "64a1078d1d8fad7fe71f757ec9eb2f80f78d321e",
+          "size": 5503,
+          "type": "file"
+        },
+        {
+          "path": "src/state.ts",
+          "sha": "932f6a14b82b015862a0a728391a85f0e669ad55",
+          "size": 4624,
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/chaturvediabhay24/opencode/blob/main/src/state.ts",
+      "kind": "file",
+      "characters": 4624,
+      "verbatim_snapshot": "export type DtocEntry = { sessionID: string callID: string toolKey: string tool:",
+      "github_blob_sha": "932f6a14b82b015862a0a728391a85f0e669ad55"
+    },
+    {
+      "url": "https://github.com/ZJU-LLM-Safety/TreeAgent",
+      "kind": "repository",
+      "metadata": {
+        "full_name": "ZJU-LLM-Safety/TreeAgent",
+        "created_at": "2026-11-09T09:31:34Z",
+        "pushed_at": "2026-11-11T08:23:34Z",
+        "default_branch": "main",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        }
+      }
+    },
+    {
+      "url": "https://github.com/ZJU-LLM-Safety/TreeAgent/tree/main",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": ".gitignore",
+          "sha": "4a7537b5e01d0a221ecb216a543ab936c6516b1f",
+          "size": 69,
+          "type": "file"
+        },
+        {
+          "path": "ENVIRONMENT.md",
+          "sha": "2645f36bb8530c6d59fdc756230074c0381ea39a",
+          "size": 664,
+          "type": "file"
+        },
+        {
+          "path": "LICENSE",
+          "sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "size": 11358,
+          "type": "file"
+        },
+        {
+          "path": "LICENSES.md",
+          "sha": "c1f5e2db47de4a9b6ab02be4a10797e04b989529",
+          "size": 2464,
+          "type": "file"
+        },
+        {
+          "path": "METHOD_CONTRACT.md",
+          "sha": "ec13350671a61040408b3e0be0c850441f88aa63",
+          "size": 8427,
+          "type": "file"
+        },
+        {
+          "path": "PRIVACY.md",
+          "sha": "b734cf037931ef475eb8a6c944ecbc7ce54f3148",
+          "size": 1229,
+          "type": "file"
+        },
+        {
+          "path": "README.md",
+          "sha": "90612322ad51834676da25c1c9be22da57a0c563",
+          "size": 6827,
+          "type": "file"
+        },
+        {
+          "path": "SHA256SUMS",
+          "sha": "c87add99fcbc815cc74d55ef7d5c2dcd40281213",
+          "size": 21527,
+          "type": "file"
+        },
+        {
+          "path": "VALIDATION.md",
+          "sha": "642d3ec44cef133571622b5161e6bd12f3e78f17",
+          "size": 2452,
+          "type": "file"
+        },
+        {
+          "path": "code",
+          "sha": "8a858a8251430ebf9d54bbe7f2d558bedd0896a7",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "configs",
+          "sha": "71e5d93cbbb13d6b01b8ff62bfcf068fe672364d",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "data",
+          "sha": "c08c7f0edf37a66ebbf8e01b638f4dab83c8ee40",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "examples",
+          "sha": "28914bf929a76a9493c02c945ab84b3e20093056",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "expected_outputs",
+          "sha": "f05898a60890ce8427e04df808b71b938a674865",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "manifests",
+          "sha": "2e8730e0f39b4ea50cefaf8acef544a141037994",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "requirements.txt",
+          "sha": "c8a91ee7b99d9c639468c46d27813d3431e66f92",
+          "size": 126,
+          "type": "file"
+        },
+        {
+          "path": "run_checks.sh",
+          "sha": "0eb9c48b9a39c126889536a291ca5dd30d340e35",
+          "size": 1366,
+          "type": "file"
+        },
+        {
+          "path": "scripts",
+          "sha": "81c0b848caf686bf2c0e5c3008df4004bbb07c96",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "tests",
+          "sha": "b6ce07f341f4c1f56baf54be85b8a62b838d5573",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "third_party_licenses",
+          "sha": "47207af8a7df2d8e0042a2e821a0927ae42c0783",
+          "size": 0,
+          "type": "dir"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/ZJU-LLM-Safety/TreeAgent/blob/main/README.md",
+      "kind": "file",
+      "characters": 6817,
+      "verbatim_snapshot": "# 🌳 TreeAgent **Structure-Aware Memory Agent for Processing Long Hierarchical Data** [![arXiv](https://img.shields.io/badge/arXiv-2611.13946-b31b1b.svg)](https://arxiv.org/abs/2611.13946)",
+      "github_blob_sha": "90612322ad51834676da25c1c9be22da57a0c563"
+    },
+    {
+      "url": "https://github.com/ZJU-LLM-Safety/TreeAgent/tree/main/code",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "code/analysis",
+          "sha": "26393f706a9a62f7b6467cba74aaea05e36b8420",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "code/data_construction",
+          "sha": "166787c961b7a9480e4be5f16bcf96afe391f58a",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "code/evaluation",
+          "sha": "b5597cd837e2aa4c441c68538570e900bed5975f",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "code/treeagent",
+          "sha": "8e1325f8157ce5bbbe31045241805f5215cc8491",
+          "size": 0,
+          "type": "dir"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/ZJU-LLM-Safety/TreeAgent/tree/main/code/treeagent",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "code/treeagent/__init__.py",
+          "sha": "db76677612df14f3957965f0201997557a38463a",
+          "size": 586,
+          "type": "file"
+        },
+        {
+          "path": "code/treeagent/cli.py",
+          "sha": "0e77be48c6a0ef435c6f9c91c595ce91896f272e",
+          "size": 1677,
+          "type": "file"
+        },
+        {
+          "path": "code/treeagent/infmem.py",
+          "sha": "c43b8e6bb49e12c58f98d752a07e53a12f3ebd83",
+          "size": 1907,
+          "type": "file"
+        },
+        {
+          "path": "code/treeagent/native_html_structure.py",
+          "sha": "2535bc6a40ae1233a94f6d94823f3b2a7a03b7b8",
+          "size": 5348,
+          "type": "file"
+        },
+        {
+          "path": "code/treeagent/native_javascript_structure.py",
+          "sha": "e470e057e3d719e576542628797054fc366e7c37",
+          "size": 5870,
+          "type": "file"
+        },
+        {
+          "path": "code/treeagent/native_source.py",
+          "sha": "cd9ff4a34ea92cf28b7e821b2ce033baf2b9c0ca",
+          "size": 9625,
+          "type": "file"
+        },
+        {
+          "path": "code/treeagent/native_tree.py",
+          "sha": "5469548685e59883606e0f5c0d522eaeec8a8483",
+          "size": 2705,
+          "type": "file"
+        },
+        {
+          "path": "code/treeagent/native_yaml_structure.py",
+          "sha": "c8bd04a0227557102803f9656e2ec2c7f69e958b",
+          "size": 6577,
+          "type": "file"
+        },
+        {
+          "path": "code/treeagent/planning.py",
+          "sha": "6ef7753138797543042ae6b4a2efea484b61502a",
+          "size": 2769,
+          "type": "file"
+        },
+        {
+          "path": "code/treeagent/residual.py",
+          "sha": "b22fa7ffdbbed2f3caaae6864fcd9a5389320c53",
+          "size": 4794,
+          "type": "file"
+        },
+        {
+          "path": "code/treeagent/runtime.py",
+          "sha": "499ea8a2bea70d20700cd3f015546c25918f99a2",
+          "size": 1500,
+          "type": "file"
+        },
+        {
+          "path": "code/treeagent/sectioning.py",
+          "sha": "ebf61b8c3d896308ed165e69f7e932161e6e6602",
+          "size": 25590,
+          "type": "file"
+        },
+        {
+          "path": "code/treeagent/tokenizers.py",
+          "sha": "2158d98a4f0d93e59795b5cfc1a04ab0fec244e3",
+          "size": 926,
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/ZJU-LLM-Safety/TreeAgent/blob/main/code/treeagent/runtime.py",
+      "kind": "file",
+      "characters": 1500,
+      "verbatim_snapshot": "\"\"\"Controller-neutral implementation of the manuscript's update ordering. Callbacks retain the host agent's",
+      "github_blob_sha": "499ea8a2bea70d20700cd3f015546c25918f99a2"
+    },
+    {
+      "url": "https://github.com/ZJU-LLM-Safety/TreeAgent/blob/main/code/treeagent/sectioning.py",
+      "kind": "file",
+      "characters": 25584,
+      "verbatim_snapshot": "\"\"\"Flat/TreeAgent API and JSON adapter; native formats share its planner. The public",
+      "github_blob_sha": "ebf61b8c3d896308ed165e69f7e932161e6e6602"
+    },
+    {
+      "url": "https://github.com/ZJU-LLM-Safety/TreeAgent/blob/main/LICENSES.md",
+      "kind": "file",
+      "characters": 2464,
+      "verbatim_snapshot": "# Licenses and third-party notices ## Code and generated fixtures Package code,",
+      "github_blob_sha": "c1f5e2db47de4a9b6ab02be4a10797e04b989529"
+    },
+    {
+      "url": "https://github.com/meteora-pro/devboy-tools",
+      "kind": "repository",
+      "metadata": {
+        "full_name": "meteora-pro/devboy-tools",
+        "created_at": "2026-01-26T02:26:36Z",
+        "pushed_at": "2026-09-03T20:48:08Z",
+        "default_branch": "main",
+        "license": {
+          "key": "apache-2.0",
+          "name": "Apache License 2.0",
+          "spdx_id": "Apache-2.0",
+          "url": "https://api.github.com/licenses/apache-2.0",
+          "node_id": "MDc6TGljZW5zZTI="
+        }
+      }
+    },
+    {
+      "url": "https://github.com/meteora-pro/devboy-tools/tree/main",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": ".claude-plugin",
+          "sha": "b34820f065557670066983aeffb7af56dad4563a",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": ".claude",
+          "sha": "7d7714e82c0571e6c72c44183775d11b1c8b6916",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": ".devcontainer",
+          "sha": "ca4c586e9d43e88a02ce835a4949bf3154601f06",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": ".gitattributes",
+          "sha": "815570c749cbb6d061a92f2b750d513eeca7131e",
+          "size": 421,
+          "type": "file"
+        },
+        {
+          "path": ".github",
+          "sha": "7fbcd086299cb1942ab40cf7aa61d07fc2e52bab",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": ".gitignore",
+          "sha": "62d7d7bc86ed84722420b430d9215b75dd900fbf",
+          "size": 1437,
+          "type": "file"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha": "88d1cbae15116a7a4a51b8254c2e951928bfc7b8",
+          "size": 20586,
+          "type": "file"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha": "2fa8921e9751a120856d45f88cf51621245d1874",
+          "size": 7010,
+          "type": "file"
+        },
+        {
+          "path": "Cargo.toml",
+          "sha": "d91b0600196eeded01fecb935f5fa15c48b114d9",
+          "size": 6383,
+          "type": "file"
+        },
+        {
+          "path": "LICENSE",
+          "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "size": 11357,
+          "type": "file"
+        },
+        {
+          "path": "README.md",
+          "sha": "55036f17cc71159c54de9926d966fa5d14cbf7af",
+          "size": 27326,
+          "type": "file"
+        },
+        {
+          "path": "codecov.yml",
+          "sha": "2a725383fc46c84a2d8904a65bcb44cd0ba69617",
+          "size": 996,
+          "type": "file"
+        },
+        {
+          "path": "crates",
+          "sha": "c7d237a540a9e5cabedc4dac66ac7dae1860f526",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "deny.toml",
+          "sha": "6a75e1982c1f57e47cb7386059ccf1647ac0a08b",
+          "size": 3413,
+          "type": "file"
+        },
+        {
+          "path": "docs",
+          "sha": "6187bc700f33f6878702562d241bb8861dee6f19",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "examples",
+          "sha": "59edaa55077f3db50bbfef8595a82c3b1b4f6d9a",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "npm",
+          "sha": "5b4f6abbb80226e42169a5d0bce87d103d6f321f",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "plugins",
+          "sha": "43bdb5bbbb66c913c6524ddbdd9584d28ebbd02a",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "scripts",
+          "sha": "04960ebc02d4bc78b3838eda9283f386e362cbea",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "skills",
+          "sha": "926ed970a21f1d190642a369008584bf9718b570",
+          "size": 0,
+          "type": "dir"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/meteora-pro/devboy-tools/tree/main/docs/research",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "docs/research/INDEX.md",
+          "sha": "12c8149717a341e1986edab73fe0b9f6add03b81",
+          "size": 3138,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data",
+          "sha": "e6d5e6d33869cf3c1a1f2620b566f060d5dc6b65",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "docs/research/notebooks",
+          "sha": "9fac92e0172de964fd1ad0fdf6f51ae35c2c684d",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "docs/research/paper-1-REPRODUCIBILITY.md",
+          "sha": "3bf36964e5f79b765e6d1449dd31d5e06277cf74",
+          "size": 10940,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper-1-SUMMARY.md",
+          "sha": "986f676b2949c4c8b5979ac165a80dbaf3f59282",
+          "size": 8169,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper-1-trimtree.md",
+          "sha": "f6126e1ce74446b1c729d7caf025555f3435cb6c",
+          "size": 42001,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper-2-mckp-format-adaptive.md",
+          "sha": "b758ae4c6af6c113ce263e0b464d491469666928",
+          "size": 56401,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper-3-context-enrichment.md",
+          "sha": "f16ec4bc0d5900a06ee215e4f948fc1bf075efbe",
+          "size": 4987,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper-3-tool-aware-enrichment.md",
+          "sha": "2326a19a6c31b9e5c39d771127c71f23098fd118",
+          "size": 22287,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper-4-notebook-parquet.md",
+          "sha": "28c4479859d780f4b8ea11df4c817d52c7d5c6c6",
+          "size": 6994,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper1-repro",
+          "sha": "4f46f024369df41279f995c6c8be8a38f3aa8a33",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "docs/research/paper3_corpus_findings.md",
+          "sha": "25492145fa7de83e29665ebf45093e02cfcd0d57",
+          "size": 9942,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/scripts",
+          "sha": "5cf84383a2e176be06e4655b3a44d0ee4320c413",
+          "size": 0,
+          "type": "dir"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/meteora-pro/devboy-tools/tree/main/docs/research/paper1-repro",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "docs/research/paper1-repro/.env.example",
+          "sha": "a39315fc912efee83b82fc451e824470f107a450",
+          "size": 1275,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper1-repro/Dockerfile",
+          "sha": "74c2b43694f35847e7035577d677da713eac1023",
+          "size": 1675,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper1-repro/Makefile",
+          "sha": "eebde694b304bff958e8e27a7179aae7205a3f9e",
+          "size": 6441,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper1-repro/README.md",
+          "sha": "6a44f26ca0b4cb7ec1b537c53e349996edb54304",
+          "size": 4227,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper1-repro/TASK.md",
+          "sha": "93b750f17b8d95bcd4ef91cab86b2ffabbd801b5",
+          "size": 12061,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper1-repro/anonymization_rules.md",
+          "sha": "aab419be925cd1923c3edf8f9df9ff0ac47a1eca",
+          "size": 2850,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper1-repro/config",
+          "sha": "df1b025ffa474b0d9f7068d93c2d267ac7ca30a9",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "docs/research/paper1-repro/prompts",
+          "sha": "b26b47335c6c76d6b4bb182fef9076feddf7a396",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "docs/research/paper1-repro/scripts",
+          "sha": "71f3b06a85e1f2a0d561551c56e704e662b270ea",
+          "size": 0,
+          "type": "dir"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/meteora-pro/devboy-tools/tree/main/docs/research/paper1-repro/scripts",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "docs/research/paper1-repro/scripts/01_download_swe_bench.py",
+          "sha": "4a7704e880925fdbfd6c70fe062abc6e603958ab",
+          "size": 5053,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper1-repro/scripts/02_generate_candidates.py",
+          "sha": "17912bc8371b98a9a0b5047728762f93d2bb68a2",
+          "size": 13540,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper1-repro/scripts/03_run_strategies.py",
+          "sha": "6fb7a6e04c3e570edce2f7c7baf29fbba7eec41e",
+          "size": 14483,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper1-repro/scripts/04_run_multi_llm.py",
+          "sha": "55143b58b34ecbbb280d1878271f9226f2fba9f1",
+          "size": 26257,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper1-repro/scripts/05_aggregate_results.py",
+          "sha": "76c4939c7da10088ac28bfe715072fbbc90182f6",
+          "size": 16973,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper1-repro/scripts/06_plots.py",
+          "sha": "2d260ec30c72e592908730e5319751ffde17942e",
+          "size": 8238,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/paper1-repro/scripts/07_anthropic_batch.py",
+          "sha": "c661248171f8874a97178537be01b9cc3fe6c6c7",
+          "size": 22259,
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/meteora-pro/devboy-tools/tree/main/docs/research/data",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "docs/research/data/ablation_results.csv",
+          "sha": "824149b8d7f73eda206d5eff572a325a650b4834",
+          "size": 16699,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/gold_selection_real.csv",
+          "sha": "51a37328462e8e1596a3ab188229120bb799cfe5",
+          "size": 3752,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/llm_results.csv",
+          "sha": "2397094366cd65f83d51b44bd5eda4e3ac563ef0",
+          "size": 1517,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/llm_results",
+          "sha": "09408e4ca61cd040ab5a26ad422618d0532a4d5c",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "docs/research/data/llm_results_gpu_reasoning_50.csv",
+          "sha": "13edc741adb07ac66d260c821cdc23ea7cf82602",
+          "size": 1523,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/paper2_format_rules_v2.csv",
+          "sha": "8e13e3b718fa39591b42b9a5f4a3e94534a73997",
+          "size": 1312,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/paper2_format_rules_v2.yaml",
+          "sha": "3fa96421594e952ad74906c8ab9b08deb4a85188",
+          "size": 11199,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/paper3_followup_edges.csv",
+          "sha": "a122eeeb6360147b9f3159f6c922b815fef6f2c5",
+          "size": 115992,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/paper3_tool_volume.csv",
+          "sha": "b38a1d7cf2767de99f9992a51296844bf42ba181",
+          "size": 5661,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/swe_bench_corr.csv",
+          "sha": "2b4e2d4492ff988918433559cac819a047e8de67",
+          "size": 308876,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/swe_bench_cost.csv",
+          "sha": "ca48fd85f1441be349e3ea2017eaebb00f9c6099",
+          "size": 523,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/swe_bench_gold.parquet",
+          "sha": "9d235bbbc9fb25177065140c46422ed83cfbee40",
+          "size": 299395,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/swe_bench_llm.csv",
+          "sha": "9d5b4e8f3b07c3742b5121da377bdc64a4663a38",
+          "size": 4859,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/swe_bench_llm_by_bucket.csv",
+          "sha": "10e7daf6fa71e9e1cf8c739706e2b1de08533f03",
+          "size": 8237,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/swe_bench_strategies.csv",
+          "sha": "b8ffc0e71890a3c2bdc9c2889862d45e9f1dab9c",
+          "size": 2234,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/swe_bench_strategies_by_bucket.csv",
+          "sha": "ef1f351b2a9fd1ad4e1b802b5b19ee02435c9bc6",
+          "size": 3523,
+          "type": "file"
+        },
+        {
+          "path": "docs/research/data/swe_bench_strategy_results.parquet",
+          "sha": "6a666a90a7e2f75739863451341a0bac8a79ea34",
+          "size": 20085,
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/meteora-pro/devboy-tools/blob/main/docs/research/paper-1-REPRODUCIBILITY.md",
+      "kind": "file",
+      "characters": 10841,
+      "verbatim_snapshot": "# Paper 1 — Reproducibility kit How to reproduce every number in",
+      "github_blob_sha": "3bf36964e5f79b765e6d1449dd31d5e06277cf74"
+    },
+    {
+      "url": "https://github.com/meteora-pro/devboy-tools/blob/main/docs/research/paper1-repro/scripts/03_run_strategies.py",
+      "kind": "file",
+      "characters": 13852,
+      "verbatim_snapshot": "#!/usr/bin/env python3 # /// script # requires-python = \">=3.10\" # dependencies =",
+      "github_blob_sha": "6fb7a6e04c3e570edce2f7c7baf29fbba7eec41e"
+    },
+    {
+      "url": "https://github.com/meteora-pro/devboy-tools/blob/main/docs/research/paper1-repro/scripts/04_run_multi_llm.py",
+      "kind": "file",
+      "characters": 25292,
+      "verbatim_snapshot": "#!/usr/bin/env python3 # /// script # requires-python = \">=3.10\" # dependencies =",
+      "github_blob_sha": "55143b58b34ecbbb280d1878271f9226f2fba9f1"
+    },
+    {
+      "url": "https://github.com/meteora-pro/devboy-tools/blob/main/LICENSE",
+      "kind": "file",
+      "characters": 11357,
+      "verbatim_snapshot": " Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR",
+      "github_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "url": "https://github.com/PointFiveLabs/ai-efficiency-benchmark",
+      "kind": "repository",
+      "metadata": {
+        "full_name": "PointFiveLabs/ai-efficiency-benchmark",
+        "created_at": "2026-07-12T11:25:17Z",
+        "pushed_at": "2026-08-05T05:22:07Z",
+        "default_branch": "main",
+        "license": {
+          "key": "cc-by-4.0",
+          "name": "Creative Commons Attribution 4.0 International",
+          "spdx_id": "CC-BY-4.0",
+          "url": "https://api.github.com/licenses/cc-by-4.0",
+          "node_id": "MDc6TGljZW5zZTI1"
+        }
+      }
+    },
+    {
+      "url": "https://github.com/PointFiveLabs/ai-efficiency-benchmark/tree/main",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": ".gitignore",
+          "sha": "2f0480695393d0e9222fcd01ee4576bb62c2f4f2",
+          "size": 30,
+          "type": "file"
+        },
+        {
+          "path": "LICENSE",
+          "sha": "da6ab6cc8f333d7e89a99812866df8f24374d47c",
+          "size": 18657,
+          "type": "file"
+        },
+        {
+          "path": "LICENSE-CODE",
+          "sha": "e6a4e9fbd855656fb5dd1a1ca9a6c1307f06dae2",
+          "size": 11345,
+          "type": "file"
+        },
+        {
+          "path": "README.md",
+          "sha": "321abdfa451e56d8193ebe85bee2c8447294794e",
+          "size": 6123,
+          "type": "file"
+        },
+        {
+          "path": "analysis",
+          "sha": "5c71c97d095f5c7f3cc845c2a4c747f31c4ad894",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "component",
+          "sha": "21b575729191dc6c563745a5417900a44df45a8d",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "deliverables",
+          "sha": "8c5b350f6a51ffce0afc5b2198545527e559e1f4",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "docs",
+          "sha": "1523bdee25aebebc85d521f8cec99370ba9db238",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "embed_sidecar.py",
+          "sha": "ff8feb24220d93032f5c3f6f8c9769d4abc82fd3",
+          "size": 1903,
+          "type": "file"
+        },
+        {
+          "path": "fixtures",
+          "sha": "15064ac85a2d4d352ce0d31185769eaa5aa9bc88",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "fixtures_ground_truth.json",
+          "sha": "8ac27298ab7842108b8eb06b1aafa45d389095d9",
+          "size": 2495,
+          "type": "file"
+        },
+        {
+          "path": "runner.py",
+          "sha": "e57dc36dd0b9bfdb537fdfaf851539ee2a3a7038",
+          "size": 22644,
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/PointFiveLabs/ai-efficiency-benchmark/tree/main/analysis",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "analysis/extract_ledgers.py",
+          "sha": "598df684c3b76b83e9845b9362563f5df2defbe7",
+          "size": 10244,
+          "type": "file"
+        },
+        {
+          "path": "analysis/phase_waterfall.py",
+          "sha": "115802ef832b579b224596920a77677d5bfdfb9f",
+          "size": 7685,
+          "type": "file"
+        },
+        {
+          "path": "analysis/power.py",
+          "sha": "9c2a41c1eec7e3330e3ab3a4505e3b39b852ff93",
+          "size": 10567,
+          "type": "file"
+        },
+        {
+          "path": "analysis/stats.py",
+          "sha": "3e37234cd2f47ecefcda5601f4f43a2e86b46dd2",
+          "size": 9310,
+          "type": "file"
+        },
+        {
+          "path": "analysis/stats2.py",
+          "sha": "a62a0a1f63adaf21c466775a4b40da014ff865f6",
+          "size": 7482,
+          "type": "file"
+        },
+        {
+          "path": "analysis/tables.py",
+          "sha": "966701f0cf1a4fda30fcf27ee929353b796724a9",
+          "size": 6693,
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/PointFiveLabs/ai-efficiency-benchmark/blob/main/README.md",
+      "kind": "file",
+      "characters": 6096,
+      "verbatim_snapshot": "# AI Efficiency Benchmark A benchmark for one question: **when you add",
+      "github_blob_sha": "321abdfa451e56d8193ebe85bee2c8447294794e"
+    },
+    {
+      "url": "https://github.com/PointFiveLabs/ai-efficiency-benchmark/blob/main/runner.py",
+      "kind": "file",
+      "characters": 22637,
+      "verbatim_snapshot": "#!/usr/bin/env python3 \"\"\"Benchmark-validation campaign runner — 4 frozen arms, strict block pairing.",
+      "github_blob_sha": "e57dc36dd0b9bfdb537fdfaf851539ee2a3a7038"
+    },
+    {
+      "url": "https://github.com/PointFiveLabs/ai-efficiency-benchmark/blob/main/LICENSE-CODE",
+      "kind": "file",
+      "characters": 11345,
+      "verbatim_snapshot": " Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR",
+      "github_blob_sha": "e6a4e9fbd855656fb5dd1a1ca9a6c1307f06dae2"
+    },
+    {
+      "url": "https://github.com/microsoft/LLMLingua",
+      "kind": "repository",
+      "metadata": {
+        "full_name": "microsoft/LLMLingua",
+        "created_at": "2023-07-07T06:26:00Z",
+        "pushed_at": "2026-11-09T16:46:04Z",
+        "default_branch": "main",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      }
+    },
+    {
+      "url": "https://github.com/microsoft/LLMLingua/tree/main/llmlingua",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "llmlingua/__init__.py",
+          "sha": "d750210b205a6c7c4a4f2e590041ab27e1d25594",
+          "size": 230,
+          "type": "file"
+        },
+        {
+          "path": "llmlingua/prompt_compressor.py",
+          "sha": "84e390e557b031b553c372e661af63f9d5aedfc3",
+          "size": 110078,
+          "type": "file"
+        },
+        {
+          "path": "llmlingua/utils.py",
+          "sha": "da9986eec4ec653db9039023d773f055c01dd1d4",
+          "size": 8099,
+          "type": "file"
+        },
+        {
+          "path": "llmlingua/version.py",
+          "sha": "15ce103bc7e017fbc69cfe725e047b80d21c50a9",
+          "size": 500,
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/microsoft/LLMLingua/blob/main/llmlingua/prompt_compressor.py",
+      "kind": "file",
+      "characters": 110070,
+      "verbatim_snapshot": "# Copyright (c) 2023-2025 Microsoft # Licensed under The MIT License [see",
+      "github_blob_sha": "84e390e557b031b553c372e661af63f9d5aedfc3"
+    },
+    {
+      "url": "https://github.com/sierra-research/tau-bench",
+      "kind": "repository",
+      "metadata": {
+        "full_name": "sierra-research/tau-bench",
+        "created_at": "2024-06-06T17:11:36Z",
+        "pushed_at": "2026-03-18T17:36:06Z",
+        "default_branch": "main",
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        }
+      }
+    },
+    {
+      "url": "https://github.com/sierra-research/tau-bench/tree/main/tau_bench/envs",
+      "kind": "directory",
+      "metadata": [
+        {
+          "path": "tau_bench/envs/__init__.py",
+          "sha": "e20a98f35941732db516bc406d6d283295dd19e8",
+          "size": 1073,
+          "type": "file"
+        },
+        {
+          "path": "tau_bench/envs/airline",
+          "sha": "a496c4f57d29922893ef5bf03be5611a45112fd8",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "tau_bench/envs/base.py",
+          "sha": "2461c3ebaf696757e0ce405bdb20376de88b0143",
+          "size": 5688,
+          "type": "file"
+        },
+        {
+          "path": "tau_bench/envs/retail",
+          "sha": "b92fa04911e0fe2029d651e462ecb13285c9dbc6",
+          "size": 0,
+          "type": "dir"
+        },
+        {
+          "path": "tau_bench/envs/tool.py",
+          "sha": "067d8636c68b4e14fbc14c49df1c7b56e96d44c3",
+          "size": 233,
+          "type": "file"
+        },
+        {
+          "path": "tau_bench/envs/user.py",
+          "sha": "eb9ee841eee4c098353cb0447e4a4bf560d8b5f6",
+          "size": 13515,
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/sierra-research/tau-bench/blob/main/tau_bench/envs/base.py",
+      "kind": "file",
+      "characters": 5688,
+      "verbatim_snapshot": "# Copyright Sierra import random from hashlib import sha256 from tau_bench.envs.tool import",
+      "github_blob_sha": "2461c3ebaf696757e0ce405bdb20376de88b0143"
+    }
+  ]
+}

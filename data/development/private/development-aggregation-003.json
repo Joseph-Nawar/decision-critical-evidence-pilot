@@ -1,0 +1,1 @@
+{"action":{"amount":54,"decision":"APPROVE","target":"PO-603622"},"complete_needed":true,"counterfactual":{"field":"amount","id":"R843564","value":28},"state":{"balance":1054,"released":0,"status":"pending","target":"PO-603622"},"support":["R107883","R113297","R588764","R642791","R843564","R845002","R979634"]}

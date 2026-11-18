@@ -1,0 +1,30 @@
+{
+  "url": "https://zenodo.org/api/records/23614755",
+  "id": 23614755,
+  "doi": "10.5281/zenodo.23614755",
+  "metadata": {
+    "title": "Context Is a Pipeline, Not a Window: Information Attrition in LLM Agent Harnesses (Replication Package)",
+    "publication_date": "2026-10-24",
+    "creators": [
+      {
+        "name": "Anonymous",
+        "affiliation": null
+      }
+    ],
+    "license": {
+      "id": "mit-license"
+    },
+    "access_right": "open",
+    "related_identifiers": null
+  },
+  "files": [
+    {
+      "key": "context-pipeline-artifact.zip",
+      "size": 74394139,
+      "checksum": "md5:424ffd1413480ae2d03024cb1316fa40",
+      "links": {
+        "self": "https://zenodo.org/api/records/23614755/files/context-pipeline-artifact.zip/content"
+      }
+    }
+  ]
+}

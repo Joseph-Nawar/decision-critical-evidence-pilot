@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-380791"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R803777","value":true},"state":{"balance":1084,"released":0,"status":"pending","target":"PO-380791"},"support":["R117677","R241375","R501218","R547785","R803777"]}

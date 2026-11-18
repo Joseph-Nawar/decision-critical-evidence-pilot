@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-922275"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R156386","value":true},"state":{"balance":1132,"released":0,"status":"pending","target":"PO-922275"},"support":["R122091","R156386","R361748","R408141","R571699"]}

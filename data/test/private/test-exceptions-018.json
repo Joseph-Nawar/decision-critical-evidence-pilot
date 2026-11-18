@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-312797"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R632374","value":true},"state":{"balance":1143,"released":0,"status":"pending","target":"PO-312797"},"support":["R193675","R293997","R632374","R698352","R964170"]}

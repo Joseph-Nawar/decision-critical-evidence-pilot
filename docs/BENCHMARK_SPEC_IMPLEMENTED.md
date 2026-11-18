@@ -1,0 +1,22 @@
+# Implemented synthetic benchmark
+
+Version 1 consists of 30 development and 100 independent test procurement decisions, six and twenty per family. Size bins cycle 50/150/300 records, with private counterfactual instructions and a separate linked stress export for the first two test parents per family. The model prompt never contains task IDs, seeds, family labels, private actions, states, or evidence support.
+
+Every request specifies a pending PO, requested cents, scope alias/code and day 30. The action is strictly `{decision: APPROVE|REJECT|DEFER, target: PO-id, amount: integer}`. Approval releases the requested amount from a private synthetic balance; rejection changes status; deferral leaves state pending. Exact action and resulting state must both match the reference. Invalid actions fail. There are no real payments or external effects.
+
+Families:
+1. Dependencies: alias → vendor → latest effective contract → latest inspection, requiring joins across nonliteral IDs.
+2. Exceptions: global and scoped rules, priorities, date intervals, latest timestamp and lexicographic tie rules; expired/future high-priority distractors.
+3. Aggregation: complete sum of eligible scoped charges, ineligible distractor, equality permitted; a one-cent counterfactual changes the decision.
+4. Negative: active block proves rejection; absence permits approval only on a certified complete source and scope; an incomplete source requires deferral. Complete/incomplete variants can differ only in metadata.
+5. Indirect reference: office alias → code → purchasing role profile, with explicit buyer/purchasing-lead equivalence, assistant-buyer near match and future dated distractor. This is controlled symbolic semantic matching, not open-ended natural-language entity resolution.
+
+All records have random synthetic IDs. Distractors share identifier namespaces and business schemas, with six unrelated entities and alias/contract/check or alias/profile chains where applicable. This is a deliberately limited template distribution, not a claim of real-world difficulty. Large context bins mostly add irrelevant scope records; scope-count metadata is useful and privileged relative to many real APIs. Report this shortcut risk alongside exact-key and full SQL results.
+
+Public tool metadata preserves `source_complete`, observed count and trustworthy observed record counts by scope. A selected view additionally states retained count and whether all observed records are present. Counts certify only the observed scope; they do not turn an upstream partial source into a complete source. The common prompt requires deferral if necessary scope records were dropped, except a witnessed active block can prove rejection. Formal private evidence support comprises a conservative complete set of relevant groups (or one positive witness); it is sufficient under the policy, not necessarily a minimal proof.
+
+Private reference interpreter and independent SQLite B4 implement the same published policies separately. B4 knows workflow type/schema and uses fixed-template intent parsing: it is an engineering counterfactual, not equal natural-language task understanding. It reads only legitimate public evidence. Private gold is generated from the interpreter and separately validated with hand-calculated edge fixtures, counterfactual flips, order reversal, repeat generation, SQL agreement, source metadata, action execution, hashes and export leakage checks.
+
+B0 is all public evidence. B1 keeps valid whole head records. B2 seeded random packing. B3 record-level BM25 (`[a-z0-9]+`, lowercase, k1=1.5, b=.75, stable original-order ties). B5 is generic query-biased graph extractive compression: Jaccard token-set graph, 20 PageRank-style updates, .85 graph weight and .15 personalized prior (half uniform, half normalized BM25), followed by whole-record byte packing. B5 is not an implementation of a named recent compressor. B6 uses private support only for a diagnostic upper bound, is not constrained to the shared budget and is never sent to a model. EXACT_KEY retains rows containing the literal requested scope and is diagnostic only.
+
+Budget: 25% of the canonical serialized B0 tool payload, with a 2000-byte floor. Includes complete tool metadata and JSON syntax, excludes common request/policy/schema. Reports actual bytes, actual runtime tokens and overhead separately. JSON payload record ordering is baseline-dependent; policies and the system prompt are common.

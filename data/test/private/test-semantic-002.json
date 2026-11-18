@@ -1,0 +1,1 @@
+{"action":{"amount":148,"decision":"APPROVE","target":"PO-957974"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R818529","value":false},"state":{"balance":1148,"released":0,"status":"pending","target":"PO-957974"},"support":["R483841","R599062","R599645","R818529","R840149"]}

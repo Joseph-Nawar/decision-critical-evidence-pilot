@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-940891"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R133481","value":true},"state":{"balance":1143,"released":0,"status":"pending","target":"PO-940891"},"support":["R118597","R133481","R427606","R813037","R859177"]}

@@ -1,0 +1,1 @@
+{"action":{"amount":146,"decision":"APPROVE","target":"PO-493074"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R417782","value":false},"state":{"balance":1146,"released":0,"status":"pending","target":"PO-493074"},"support":["R309429","R417782","R573932","R653997","R761900"]}

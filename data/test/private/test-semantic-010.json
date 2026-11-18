@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-882810"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R258256","value":true},"state":{"balance":1136,"released":0,"status":"pending","target":"PO-882810"},"support":["R133531","R258256","R451410","R706656","R805398"]}

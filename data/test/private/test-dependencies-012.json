@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-912815"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R395313","value":true},"state":{"balance":1144,"released":0,"status":"pending","target":"PO-912815"},"support":["R283751","R395313","R580073","R676170","R775333"]}

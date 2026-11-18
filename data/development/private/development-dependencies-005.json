@@ -1,0 +1,1 @@
+{"action":{"amount":90,"decision":"APPROVE","target":"PO-950464"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R293484","value":false},"state":{"balance":1090,"released":0,"status":"pending","target":"PO-950464"},"support":["R176971","R242994","R293484","R640298","R910349"]}

@@ -1,0 +1,104 @@
+{
+  "reporting_only_postfreeze": true,
+  "retained_heldout_units": 440,
+  "additional_lost_responses": 4,
+  "confirmed_heldout_backend_completions_including_lost": 444,
+  "generated_independent_test_tasks": 100,
+  "planned_llm_independent_tasks": 60,
+  "model_free_all_test": [
+    {
+      "arm": "B0",
+      "n": 100,
+      "sufficient": 100,
+      "within_budget": 0,
+      "action_observations": 0,
+      "action_correct": 0,
+      "mean_byte_reduction": 0.0
+    },
+    {
+      "arm": "B1",
+      "n": 100,
+      "sufficient": 1,
+      "within_budget": 100,
+      "action_observations": 0,
+      "action_correct": 0,
+      "mean_byte_reduction": 0.6821944290599931
+    },
+    {
+      "arm": "B2",
+      "n": 100,
+      "sufficient": 2,
+      "within_budget": 100,
+      "action_observations": 0,
+      "action_correct": 0,
+      "mean_byte_reduction": 0.6816838702415963
+    },
+    {
+      "arm": "B3",
+      "n": 100,
+      "sufficient": 45,
+      "within_budget": 100,
+      "action_observations": 0,
+      "action_correct": 0,
+      "mean_byte_reduction": 0.6811673361101902
+    },
+    {
+      "arm": "B4",
+      "n": 100,
+      "sufficient": 100,
+      "within_budget": 0,
+      "action_observations": 100,
+      "action_correct": 100,
+      "mean_byte_reduction": 0.005565062409819411
+    },
+    {
+      "arm": "B5",
+      "n": 100,
+      "sufficient": 60,
+      "within_budget": 100,
+      "action_observations": 0,
+      "action_correct": 0,
+      "mean_byte_reduction": 0.6818545439609278
+    },
+    {
+      "arm": "B6",
+      "n": 100,
+      "sufficient": 100,
+      "within_budget": 100,
+      "action_observations": 0,
+      "action_correct": 0,
+      "mean_byte_reduction": 0.9028496076308464
+    },
+    {
+      "arm": "EXACT_KEY",
+      "n": 100,
+      "sufficient": 40,
+      "within_budget": 100,
+      "action_observations": 0,
+      "action_correct": 0,
+      "mean_byte_reduction": 0.9178577511558084
+    }
+  ],
+  "phase_calls": {
+    "smoke": {
+      "responses": 2,
+      "input_tokens": 56,
+      "output_tokens": 61,
+      "backend_seconds": 9.854481416
+    },
+    "calibration": {
+      "responses": 64,
+      "input_tokens": 216149,
+      "output_tokens": 1884,
+      "backend_seconds": 805.16597175
+    },
+    "heldout_including_stress": {
+      "responses": 440,
+      "input_tokens": 1390390,
+      "output_tokens": 13010,
+      "backend_seconds": 7126.773288665
+    }
+  },
+  "family_failure_counted_units": 400,
+  "secondary_family_comparisons": 30
+}

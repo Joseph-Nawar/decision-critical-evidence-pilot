@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-560162"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R630648","value":true},"state":{"balance":1091,"released":0,"status":"pending","target":"PO-560162"},"support":["R115656","R297625","R558557","R630648","R696187"]}

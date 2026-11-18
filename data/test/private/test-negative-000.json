@@ -1,0 +1,1 @@
+{"action":{"amount":89,"decision":"APPROVE","target":"PO-502970"},"complete_needed":true,"counterfactual":{"field":"source_complete","id":null,"value":false},"state":{"balance":1089,"released":0,"status":"pending","target":"PO-502970"},"support":["R423659","R593330","R895909","R941833"]}

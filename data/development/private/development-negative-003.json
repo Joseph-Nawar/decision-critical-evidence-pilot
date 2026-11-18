@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"DEFER","target":"PO-644892"},"complete_needed":false,"counterfactual":{"field":"source_complete","id":null,"value":true},"state":{"balance":1150,"released":0,"status":"pending","target":"PO-644892"},"support":["R632114","R636480","R886396","R948969"]}

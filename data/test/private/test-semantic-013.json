@@ -1,0 +1,1 @@
+{"action":{"amount":102,"decision":"APPROVE","target":"PO-182555"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R405672","value":false},"state":{"balance":1102,"released":0,"status":"pending","target":"PO-182555"},"support":["R175454","R405672","R788184","R835833","R996346"]}

@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-999530"},"complete_needed":false,"counterfactual":{"field":"active","id":"R764296","value":false},"state":{"balance":1092,"released":0,"status":"pending","target":"PO-999530"},"support":["R764296"]}

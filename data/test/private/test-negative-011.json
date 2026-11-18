@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-318488"},"complete_needed":false,"counterfactual":{"field":"active","id":"R354576","value":false},"state":{"balance":1165,"released":0,"status":"pending","target":"PO-318488"},"support":["R354576"]}

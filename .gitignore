@@ -1,0 +1,34 @@
+# Python/macOS/editor scratch
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+.DS_Store
+.idea/
+.vscode/
+
+# Credentials and local caches
+.env
+.env.*
+!.env.example
+.cache/
+models/
+*.gguf
+*.safetensors
+
+# Scratch runs only; do NOT ignore actual data/manifests and research results by default
+tmp/
+scratch/
+# Generated package metadata
+*.egg-info/
+
+# Machine-specific setup logs and unsanitized local runtime metadata
+results/environment/runtime.local.json
+results/environment/pull-qwen.log
+results/environment/test-*-red.log
+results/runs/heldout/run.lock
+results/environment/editable-install.local.log
+results/environment/requirements-freeze.local.txt
+results/reproduction_manifest.local.json

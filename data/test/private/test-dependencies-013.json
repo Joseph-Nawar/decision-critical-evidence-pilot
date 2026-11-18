@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-590187"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R842175","value":true},"state":{"balance":1185,"released":0,"status":"pending","target":"PO-590187"},"support":["R781059","R842175","R891653","R915450","R942927"]}

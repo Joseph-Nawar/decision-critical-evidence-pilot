@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-828567"},"complete_needed":false,"counterfactual":{"field":"active","id":"R882375","value":false},"state":{"balance":1181,"released":0,"status":"pending","target":"PO-828567"},"support":["R882375"]}

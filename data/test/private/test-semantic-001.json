@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-435041"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R271826","value":true},"state":{"balance":1132,"released":0,"status":"pending","target":"PO-435041"},"support":["R119931","R271826","R560383","R571170","R815813"]}

@@ -1,0 +1,1 @@
+{"action":{"amount":102,"decision":"APPROVE","target":"PO-349110"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R120396","value":false},"state":{"balance":1102,"released":0,"status":"pending","target":"PO-349110"},"support":["R120396","R263340","R519994","R524460","R536341"]}

@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-716265"},"complete_needed":true,"counterfactual":{"field":"amount","id":"R651313","value":29},"state":{"balance":1056,"released":0,"status":"pending","target":"PO-716265"},"support":["R121191","R136112","R459646","R508063","R649141","R651313","R651985"]}

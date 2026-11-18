@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-422739"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R903524","value":true},"state":{"balance":1161,"released":0,"status":"pending","target":"PO-422739"},"support":["R200474","R243300","R337008","R903524","R994426"]}

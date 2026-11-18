@@ -1,0 +1,1 @@
+{"action":{"amount":170,"decision":"APPROVE","target":"PO-598768"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R918777","value":false},"state":{"balance":1170,"released":0,"status":"pending","target":"PO-598768"},"support":["R194100","R711678","R731097","R891338","R918777"]}

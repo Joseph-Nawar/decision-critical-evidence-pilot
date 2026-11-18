@@ -1,0 +1,1 @@
+{"action":{"amount":60,"decision":"APPROVE","target":"PO-363421"},"complete_needed":true,"counterfactual":{"field":"amount","id":"R439097","value":29},"state":{"balance":1060,"released":0,"status":"pending","target":"PO-363421"},"support":["R315704","R439097","R480276","R660021","R851786","R963062","R996386"]}

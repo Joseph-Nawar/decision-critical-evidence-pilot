@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-676943"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R619066","value":true},"state":{"balance":1132,"released":0,"status":"pending","target":"PO-676943"},"support":["R319778","R619066","R670698","R790996","R845098"]}

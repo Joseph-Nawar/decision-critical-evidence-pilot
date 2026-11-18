@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-865923"},"complete_needed":true,"counterfactual":{"field":"amount","id":"R411650","value":33},"state":{"balance":1057,"released":0,"status":"pending","target":"PO-865923"},"support":["R114622","R411650","R476311","R664276","R676849","R682504","R885232"]}

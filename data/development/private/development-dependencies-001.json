@@ -1,0 +1,1 @@
+{"action":{"amount":113,"decision":"APPROVE","target":"PO-215711"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R677839","value":false},"state":{"balance":1113,"released":0,"status":"pending","target":"PO-215711"},"support":["R141122","R143789","R547618","R677839","R835044"]}

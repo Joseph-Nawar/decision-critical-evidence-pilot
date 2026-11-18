@@ -1,0 +1,1 @@
+{"action":{"amount":171,"decision":"APPROVE","target":"PO-870210"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R818935","value":false},"state":{"balance":1171,"released":0,"status":"pending","target":"PO-870210"},"support":["R332110","R361052","R818935","R942647","R999348"]}

@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-307676"},"complete_needed":false,"counterfactual":{"field":"active","id":"R307863","value":false},"state":{"balance":1182,"released":0,"status":"pending","target":"PO-307676"},"support":["R307863"]}

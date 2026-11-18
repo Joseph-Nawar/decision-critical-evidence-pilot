@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-342306"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R670185","value":true},"state":{"balance":1175,"released":0,"status":"pending","target":"PO-342306"},"support":["R393490","R446963","R509188","R670185","R947243"]}

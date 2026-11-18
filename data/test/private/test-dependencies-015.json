@@ -1,0 +1,1 @@
+{"action":{"amount":134,"decision":"APPROVE","target":"PO-403619"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R794006","value":false},"state":{"balance":1134,"released":0,"status":"pending","target":"PO-403619"},"support":["R119413","R328384","R422314","R794006","R883105"]}

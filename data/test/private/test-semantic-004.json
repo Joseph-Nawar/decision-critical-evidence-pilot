@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-482401"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R321210","value":true},"state":{"balance":1131,"released":0,"status":"pending","target":"PO-482401"},"support":["R167963","R289483","R321210","R328020","R406060"]}

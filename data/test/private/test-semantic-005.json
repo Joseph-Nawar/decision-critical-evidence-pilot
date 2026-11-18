@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-401840"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R398556","value":true},"state":{"balance":1176,"released":0,"status":"pending","target":"PO-401840"},"support":["R179237","R394291","R398556","R646347","R850710"]}

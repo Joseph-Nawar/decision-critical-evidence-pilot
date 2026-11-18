@@ -1,0 +1,1 @@
+{"action":{"amount":143,"decision":"APPROVE","target":"PO-175875"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R269452","value":false},"state":{"balance":1143,"released":0,"status":"pending","target":"PO-175875"},"support":["R269452","R562664","R618582","R677830","R742392"]}

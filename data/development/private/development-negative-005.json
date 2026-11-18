@@ -1,0 +1,1 @@
+{"action":{"amount":124,"decision":"APPROVE","target":"PO-401235"},"complete_needed":true,"counterfactual":{"field":"source_complete","id":null,"value":false},"state":{"balance":1124,"released":0,"status":"pending","target":"PO-401235"},"support":["R192669","R378407","R550231","R570670"]}

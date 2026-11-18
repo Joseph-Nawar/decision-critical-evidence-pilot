@@ -1,0 +1,73 @@
+[
+  {
+    "url": "https://arxiv.org/html/2604.04979v1",
+    "retrieved_date": "2026-11-18",
+    "sha256": "9f81fde269279a0cc65df4b7cbf6c1b79d483f145aa805210c2c4be97037a7e6",
+    "bytes": 138754,
+    "verbatim_snapshot": "given a focused query and one tool output, return the smallest verbatim evidence block",
+    "snapshot_words": 14,
+    "locator": "given a focused query"
+  },
+  {
+    "url": "https://arxiv.org/html/2609.26121v1",
+    "retrieved_date": "2026-11-18",
+    "sha256": "59b029e1ef4ad420c247804fc2feece9feb8c0f274d19d15d23a03bc686945ab",
+    "bytes": 174661,
+    "verbatim_snapshot": "Instead of compressing or discarding information, DTOC enables explicit retrieval and unloading actions, allowing",
+    "snapshot_words": 14,
+    "locator": "Instead of compressing or discarding information"
+  },
+  {
+    "url": "https://arxiv.org/html/2611.13946v1",
+    "retrieved_date": "2026-11-18",
+    "sha256": "450b4882950bc416f0e865255fcc16b4bc08633cac039e0842274c65d0afce41",
+    "bytes": 358864,
+    "verbatim_snapshot": "We report mean answer scores. Single-value and numerical answers receive a score of one",
+    "snapshot_words": 14,
+    "locator": "We report mean answer scores."
+  },
+  {
+    "url": "https://arxiv.org/html/2608.04591v1",
+    "retrieved_date": "2026-11-18",
+    "sha256": "9cb056a22dc0f68e917f8b313970c9719dc0af4e83a0e06c68b903eb2a7c009d",
+    "bytes": 471217,
+    "verbatim_snapshot": "CROWN-QA excludes positive-evidence retrieval, already studied in QA and RAG, and isolates the downstream",
+    "snapshot_words": 14,
+    "locator": "CROWN-QA excludes positive-evidence retrieval"
+  },
+  {
+    "url": "https://arxiv.org/html/2608.26130v1",
+    "retrieved_date": "2026-11-18",
+    "sha256": "146d245e314001f80eac8011c4101d03075a17bc1f3a06675e2e0ba023ff2cf1",
+    "bytes": 264638,
+    "verbatim_snapshot": "In a controlled offline benchmark we treat first-chunk selection as a 0/1 knapsack and",
+    "snapshot_words": 14,
+    "locator": "In a controlled offline benchmark"
+  },
+  {
+    "url": "https://arxiv.org/html/2610.36114v1",
+    "retrieved_date": "2026-11-18",
+    "sha256": "dcf6f1e84d46f471fd0b26fc8d10a3174640bb0386fcd70574e0e4d9346fc939",
+    "bytes": 114440,
+    "verbatim_snapshot": "Whether the data cut truly causes the accuracy drop is still an open question.",
+    "snapshot_words": 14,
+    "locator": "Whether the data cut"
+  },
+  {
+    "url": "https://arxiv.org/html/2607.12161v5",
+    "retrieved_date": "2026-11-18",
+    "sha256": "7e6cd41b68d117489f7dacb106fabe75b84877dbc621112afd9ec2ca35fd0865",
+    "bytes": 658656,
+    "verbatim_snapshot": "Artifact Availability This paper is accompanied by a benchmark-and-data release (a partial artifact release):",
+    "snapshot_words": 14,
+    "locator": "Artifact Availability"
+  },
+  {
+    "url": "https://aclanthology.org/2026.eacl-long.134.pdf",
+    "retrieved_date": "2026-11-18",
+    "sha256": "d0c51177477f229fd687342041bf65d81f21f9653841f67f365a6446ff5f400e",
+    "bytes": 1561891,
+    "verbatim_snapshot": "How Good Are LLMs at Processing Tool Outputs?",
+    "locator": "page 1 title; full PDF text inspected through web tool"
+  }
+]

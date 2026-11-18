@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-144383"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R836868","value":true},"state":{"balance":1106,"released":0,"status":"pending","target":"PO-144383"},"support":["R498504","R647932","R672284","R836868","R879002"]}

@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-376233"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R964040","value":true},"state":{"balance":1080,"released":0,"status":"pending","target":"PO-376233"},"support":["R510282","R542321","R601703","R819636","R964040"]}

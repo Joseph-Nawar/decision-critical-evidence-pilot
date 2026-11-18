@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-226137"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R184239","value":true},"state":{"balance":1197,"released":0,"status":"pending","target":"PO-226137"},"support":["R184239","R514726","R550438","R603034","R706568"]}

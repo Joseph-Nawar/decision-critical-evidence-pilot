@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-158609"},"complete_needed":true,"counterfactual":{"field":"amount","id":"R888538","value":27},"state":{"balance":1062,"released":0,"status":"pending","target":"PO-158609"},"support":["R129542","R202929","R318801","R812600","R883163","R888538","R998785"]}

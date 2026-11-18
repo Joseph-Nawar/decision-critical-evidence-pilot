@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-154150"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R770836","value":true},"state":{"balance":1117,"released":0,"status":"pending","target":"PO-154150"},"support":["R238587","R297142","R341315","R727278","R770836"]}

@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-703164"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R439261","value":true},"state":{"balance":1088,"released":0,"status":"pending","target":"PO-703164"},"support":["R439261","R591565","R696785","R823805","R928810"]}

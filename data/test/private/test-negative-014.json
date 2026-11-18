@@ -1,0 +1,1 @@
+{"action":{"amount":145,"decision":"APPROVE","target":"PO-376249"},"complete_needed":true,"counterfactual":{"field":"source_complete","id":null,"value":false},"state":{"balance":1145,"released":0,"status":"pending","target":"PO-376249"},"support":["R372445","R512710","R781669","R960796"]}

@@ -1,0 +1,1 @@
+{"action":{"amount":153,"decision":"APPROVE","target":"PO-855227"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R509378","value":false},"state":{"balance":1153,"released":0,"status":"pending","target":"PO-855227"},"support":["R213997","R408393","R509378","R594889","R918454"]}

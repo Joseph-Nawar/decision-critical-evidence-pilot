@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"DEFER","target":"PO-886106"},"complete_needed":false,"counterfactual":{"field":"source_complete","id":null,"value":true},"state":{"balance":1123,"released":0,"status":"pending","target":"PO-886106"},"support":["R639217","R667676","R871227","R882814"]}

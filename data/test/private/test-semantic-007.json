@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-481782"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R313738","value":true},"state":{"balance":1123,"released":0,"status":"pending","target":"PO-481782"},"support":["R313738","R488800","R650040","R652355","R985619"]}

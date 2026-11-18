@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-424158"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R254558","value":true},"state":{"balance":1102,"released":0,"status":"pending","target":"PO-424158"},"support":["R157740","R235353","R254558","R590411","R840508"]}

@@ -1,0 +1,1 @@
+{"action":{"amount":190,"decision":"APPROVE","target":"PO-469280"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R721118","value":false},"state":{"balance":1190,"released":0,"status":"pending","target":"PO-469280"},"support":["R166304","R721118","R743298","R817469","R994124"]}

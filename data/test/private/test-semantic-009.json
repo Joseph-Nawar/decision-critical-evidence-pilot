@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-665849"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R183371","value":true},"state":{"balance":1178,"released":0,"status":"pending","target":"PO-665849"},"support":["R183371","R748498","R756494","R889891","R979896"]}

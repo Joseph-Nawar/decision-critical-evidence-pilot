@@ -1,0 +1,1 @@
+{"action":{"amount":108,"decision":"APPROVE","target":"PO-903307"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R463503","value":false},"state":{"balance":1108,"released":0,"status":"pending","target":"PO-903307"},"support":["R371135","R463503","R623837","R688873","R955440"]}

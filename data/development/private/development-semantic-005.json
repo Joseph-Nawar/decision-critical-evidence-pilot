@@ -1,0 +1,1 @@
+{"action":{"amount":180,"decision":"APPROVE","target":"PO-264369"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R475264","value":false},"state":{"balance":1180,"released":0,"status":"pending","target":"PO-264369"},"support":["R136435","R298410","R367967","R475264","R908196"]}

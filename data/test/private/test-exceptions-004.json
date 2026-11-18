@@ -1,0 +1,1 @@
+{"action":{"amount":159,"decision":"APPROVE","target":"PO-890258"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R781916","value":false},"state":{"balance":1159,"released":0,"status":"pending","target":"PO-890258"},"support":["R141480","R203624","R240445","R569203","R781916"]}

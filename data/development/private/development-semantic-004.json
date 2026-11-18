@@ -1,0 +1,1 @@
+{"action":{"amount":154,"decision":"APPROVE","target":"PO-222565"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R886931","value":false},"state":{"balance":1154,"released":0,"status":"pending","target":"PO-222565"},"support":["R289941","R520574","R666795","R839579","R886931"]}

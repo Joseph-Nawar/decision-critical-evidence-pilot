@@ -1,0 +1,1 @@
+{"action":{"amount":159,"decision":"APPROVE","target":"PO-707333"},"complete_needed":true,"counterfactual":{"field":"source_complete","id":null,"value":false},"state":{"balance":1159,"released":0,"status":"pending","target":"PO-707333"},"support":["R106412","R518540","R681985","R929842"]}

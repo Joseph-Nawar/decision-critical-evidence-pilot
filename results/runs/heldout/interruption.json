@@ -1,0 +1,20 @@
+{
+  "type": "session_interruption",
+  "retained_units": 21,
+  "confirmed_additional_http_completions": 4,
+  "unknown_response_bodies": 4,
+  "server_log": "results/environment/interruption-server-tail.log",
+  "http_durations_seconds": [
+    10.88,
+    6.05,
+    2.41,
+    3.85
+  ],
+  "inferred_unit_ids": [
+    "test-dependencies-005|qwen3:4b-instruct-2507-q4_K_M|B3|0",
+    "test-dependencies-006|qwen3:4b-instruct-2507-q4_K_M|B0|0",
+    "test-dependencies-006|qwen3:4b-instruct-2507-q4_K_M|B1|0",
+    "test-dependencies-006|qwen3:4b-instruct-2507-q4_K_M|B3|0"
+  ],
+  "policy": "Resume missing raw units once; never repeat retained units; report lost-response overhead separately"
+}

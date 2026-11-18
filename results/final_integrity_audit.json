@@ -1,0 +1,30 @@
+{
+  "checks": [
+    "frozen source/data integrity",
+    "exact planned grid and unique units",
+    "response/action agreement",
+    "payload and prompt hashes",
+    "model digests and response tags",
+    "selector fidelity and byte caps",
+    "truthful completeness metadata",
+    "conservative and actual context bounds"
+  ],
+  "complete": true,
+  "errors": {},
+  "planned_unique_units": 440,
+  "raw_sha256": "8dc908666acf694c36c62534119f804151bc3d7d055368e5fd9efd835b5ad1d7",
+  "returned_responses": 440,
+  "selector_recomputation_mismatches": [
+    "test-aggregation-001|qwen3:4b-instruct-2507-q4_K_M|B3|0",
+    "test-aggregation-007|qwen3:4b-instruct-2507-q4_K_M|B3|0",
+    "test-aggregation-001|gemma4:12b-it-qat|B3|0",
+    "test-aggregation-007|gemma4:12b-it-qat|B3|0"
+  ],
+  "unique_independent_generation_seeds": 130,
+  "selector_exact_payload_replay": false,
+  "selector_same_record_membership": true,
+  "selector_order_variation_units": 4,
+  "reproducibility_limitation": "BM25 unordered query-term accumulation has hash-seed-dependent floating ties; archived requests provide exact original input order.",
+  "cross_model_payload_pairs": 220,
+  "cross_model_identical_payload_pairs": 220
+}

@@ -1,0 +1,1 @@
+{"action":{"amount":125,"decision":"APPROVE","target":"PO-536930"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R405540","value":false},"state":{"balance":1125,"released":0,"status":"pending","target":"PO-536930"},"support":["R405540","R490575","R501236","R592106","R941325"]}

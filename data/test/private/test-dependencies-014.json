@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-714352"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R379240","value":true},"state":{"balance":1100,"released":0,"status":"pending","target":"PO-714352"},"support":["R379240","R464111","R622549","R722553","R867953"]}

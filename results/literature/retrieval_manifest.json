@@ -1,0 +1,94 @@
+{
+  "retrieved_date": "2026-11-18",
+  "timezone": "Africa/Cairo",
+  "sources": [
+    {
+      "url": "https://zenodo.org/api/records/23614755",
+      "final_url": "https://zenodo.org/api/records/23614755",
+      "http_status": 200,
+      "sha256": "54af5bb54f8aba03595becb522010c8453380333c7bbca6ed93b8cdcda52b8ce",
+      "bytes": 5273,
+      "content_type": "application/json"
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.04979",
+      "final_url": "https://arxiv.org/abs/2604.04979",
+      "http_status": 200,
+      "sha256": "7412fec1be447147ae41e5323c045f7bfa03fec2b18dbf0946afdb876b73ec2b",
+      "bytes": 39088,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.26121",
+      "final_url": "https://arxiv.org/abs/2609.26121",
+      "http_status": 200,
+      "sha256": "a16e2cc630e25a71bb8b9bf2b00fe362be3ff4c2574a3e29d4bd2de907e1ef1c",
+      "bytes": 43123,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.13946",
+      "final_url": "https://arxiv.org/abs/2611.13946",
+      "http_status": 200,
+      "sha256": "3747412b2ed829e6e055f856076a945a0429da3fa043f7363e498d6ad0dab062",
+      "bytes": 43629,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.04591",
+      "final_url": "https://arxiv.org/abs/2608.04591",
+      "http_status": 200,
+      "sha256": "954c597adabf3650563739534ec63d4f5633e09335dfe8ca6df95d368c842c46",
+      "bytes": 43018,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.26130",
+      "final_url": "https://arxiv.org/abs/2608.26130",
+      "http_status": 200,
+      "sha256": "1984712de075641a30fe3c728dee35448adbcb55b64d03a6682c5da7c895d183",
+      "bytes": 42591,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.36114",
+      "final_url": "https://arxiv.org/abs/2610.36114",
+      "http_status": 200,
+      "sha256": "fed85a7145c3235ef068e8e3a4e160aee38a75615633e4f49d8b7a32152c7e52",
+      "bytes": 43216,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.12161",
+      "final_url": "https://arxiv.org/abs/2607.12161",
+      "http_status": 200,
+      "sha256": "291ea54d61eb546a8347202f78d148eafc1ea5d68bae64261323b01b8d5ae0f0",
+      "bytes": 41161,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://aclanthology.org/2026.eacl-long.134/",
+      "final_url": "https://aclanthology.org/2026.eacl-long.134/",
+      "http_status": 200,
+      "sha256": "b276e3877286d7f5097abdf71c71210084854a29caf862e28c651177752b7107",
+      "bytes": 43320,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://aclanthology.org/2024.findings-acl.57/",
+      "final_url": "https://aclanthology.org/2024.findings-acl.57/",
+      "http_status": 200,
+      "sha256": "69f47eaa4dfec75a6e8bee9dfa23673a2d6c21508174eb21f493340148fcd947",
+      "bytes": 50676,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.12045",
+      "final_url": "https://arxiv.org/abs/2406.12045",
+      "http_status": 200,
+      "sha256": "59d742b0a2cf9a5f3aa5b4b55b06cb46e49c036cf814c9ae34f54e12d549f64e",
+      "bytes": 40127,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ]
+}

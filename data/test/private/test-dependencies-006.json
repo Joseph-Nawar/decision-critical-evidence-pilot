@@ -1,0 +1,1 @@
+{"action":{"amount":123,"decision":"APPROVE","target":"PO-558020"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R897354","value":false},"state":{"balance":1123,"released":0,"status":"pending","target":"PO-558020"},"support":["R137964","R407481","R561924","R819946","R897354"]}

@@ -1,0 +1,1 @@
+{"action":{"amount":47,"decision":"APPROVE","target":"PO-373771"},"complete_needed":true,"counterfactual":{"field":"amount","id":"R336846","value":34},"state":{"balance":1047,"released":0,"status":"pending","target":"PO-373771"},"support":["R111359","R336846","R386781","R473992","R501985","R621791","R711199"]}

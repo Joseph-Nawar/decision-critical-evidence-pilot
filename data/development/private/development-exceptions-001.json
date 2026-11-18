@@ -1,0 +1,1 @@
+{"action":{"amount":171,"decision":"APPROVE","target":"PO-529821"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R552189","value":false},"state":{"balance":1171,"released":0,"status":"pending","target":"PO-529821"},"support":["R316910","R431553","R552189","R856515","R866813"]}

@@ -1,0 +1,1 @@
+{"action":{"amount":184,"decision":"APPROVE","target":"PO-210805"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R561127","value":false},"state":{"balance":1184,"released":0,"status":"pending","target":"PO-210805"},"support":["R191023","R561127","R691203","R905415","R966644"]}

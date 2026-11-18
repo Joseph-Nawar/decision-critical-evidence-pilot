@@ -1,0 +1,1 @@
+{"action":{"amount":122,"decision":"APPROVE","target":"PO-374073"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R986934","value":false},"state":{"balance":1122,"released":0,"status":"pending","target":"PO-374073"},"support":["R174755","R416890","R876834","R963412","R986934"]}

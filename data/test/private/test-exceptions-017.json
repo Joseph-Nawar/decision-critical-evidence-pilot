@@ -1,0 +1,1 @@
+{"action":{"amount":176,"decision":"APPROVE","target":"PO-642336"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R429284","value":false},"state":{"balance":1176,"released":0,"status":"pending","target":"PO-642336"},"support":["R429284","R465649","R524517","R576275","R952721"]}

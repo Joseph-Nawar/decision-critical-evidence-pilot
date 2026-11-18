@@ -1,0 +1,1 @@
+{"action":{"amount":176,"decision":"APPROVE","target":"PO-402635"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R493414","value":false},"state":{"balance":1176,"released":0,"status":"pending","target":"PO-402635"},"support":["R481636","R493414","R494523","R694795","R996024"]}

@@ -1,0 +1,86 @@
+{
+  "url": "https://zenodo.org/api/records/23614755/files/context-pipeline-artifact.zip/content",
+  "download_bytes": 74394139,
+  "sha256": "da08f98da963e355293b003ed87cdc72d83aac3838e5d300792a0204d2a75c01",
+  "md5": "424ffd1413480ae2d03024cb1316fa40",
+  "files_count": 390,
+  "code_paths": [
+    "LICENSE",
+    "README.md",
+    "agent/README.md",
+    "agent/agent_v2.py",
+    "agent/coderepo.py",
+    "agent/codetool.py",
+    "agent/config.py",
+    "agent/ctf_tool.py",
+    "agent/leakguard.py",
+    "agent/procedures.py",
+    "agent/skillreg.py",
+    "agent/test_paging.py",
+    "agent/transcript.py",
+    "agent/utils.py",
+    "study/analyze.py",
+    "study/make_fig_cliff.py",
+    "study/mechanism_delivery.py",
+    "study/probe_given.py",
+    "study/replay_delivery.py",
+    "study/run_campaign.py",
+    "study/run_fatal_matrix.py"
+  ],
+  "static_inspections": [
+    {
+      "path": "README.md",
+      "bytes": 8246,
+      "sha256": "b41c788d660f4b6b5526d5277cea416f841638b4e55d1300418ab1d438164710",
+      "verbatim_snapshot": "# Artifact: Context Is a Pipeline, Not a Window Replication package for"
+    },
+    {
+      "path": "agent/README.md",
+      "bytes": 4013,
+      "sha256": "eeccd67761bfd205bad4e3da466ae79568bd15d336f8ca8573d0e3dfd54bcf31",
+      "verbatim_snapshot": "# agent \u2014 the kernel-trace RCA agent The LLM agent that investigates"
+    },
+    {
+      "path": "agent/agent_v2.py",
+      "bytes": 66454,
+      "sha256": "3a3b3b87d210e849beb58b838ab049473a4a0769807b0f7f502c91d71c1460f6",
+      "verbatim_snapshot": "#!/usr/bin/env python3 \"\"\"Agent v2: a LangGraph plan / work / review /"
+    },
+    {
+      "path": "study/replay_delivery.py",
+      "bytes": 6251,
+      "sha256": "d3d436196b0acc40e1857ea6539410fd7869ad7ca2e8ee3683de3b63bf6b390a",
+      "verbatim_snapshot": "#!/usr/bin/env python3 \"\"\"E1b: replay REAL recorded tool results through both delivery regimes."
+    },
+    {
+      "path": "study/mechanism_delivery.py",
+      "bytes": 4689,
+      "sha256": "ac913212d183bf4a887a503ce217606c86f4949e6723249819ed8c32cb0d9aa9",
+      "verbatim_snapshot": "#!/usr/bin/env python3 \"\"\"E1: the delivery cliff. Deterministic, no model calls, no data"
+    },
+    {
+      "path": "study/run_campaign.py",
+      "bytes": 8440,
+      "sha256": "57496ff3de809893ebf1c07e4bbab8327c75fcde370f1bed6fe44c49ac3227c9",
+      "verbatim_snapshot": "#!/usr/bin/env python3 \"\"\"E2: controlled ablation of the agent's memory pipeline. Each cell"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1375,
+      "sha256": "f07b3e46afa97a593322b5dff1e3085d41fcdfecb09104d23f76f050d54ed9ce",
+      "verbatim_snapshot": "MIT License Copyright (c) 2026 The Authors (anonymized for double-anonymous review) Permission"
+    },
+    {
+      "path": "agent/utils.py",
+      "bytes": 31842,
+      "sha256": "036fa609096e0c867de6cbc13d5b0e8130941a936bb8969754ed83b4f2576b8c",
+      "inspected_symbols": [
+        "fit_result",
+        "page_result",
+        "ABL_FLAT_CAP"
+      ],
+      "finding": "flat-cap path serializes JSON then slices text; repaired path removes whole list rows, with separate paging implementation"
+    }
+  ],
+  "checksum_matches_zenodo": true
+}

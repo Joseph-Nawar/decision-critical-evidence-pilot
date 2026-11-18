@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-876188"},"complete_needed":false,"counterfactual":{"field":"passed","id":"R668733","value":true},"state":{"balance":1192,"released":0,"status":"pending","target":"PO-876188"},"support":["R102979","R668733","R907150","R943048","R974425"]}

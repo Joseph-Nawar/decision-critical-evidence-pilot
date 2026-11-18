@@ -1,0 +1,1 @@
+{"action":{"amount":174,"decision":"APPROVE","target":"PO-169646"},"complete_needed":true,"counterfactual":{"field":"source_complete","id":null,"value":false},"state":{"balance":1174,"released":0,"status":"pending","target":"PO-169646"},"support":["R119873","R581062","R772360","R806978"]}

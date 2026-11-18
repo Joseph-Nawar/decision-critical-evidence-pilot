@@ -1,0 +1,1 @@
+{"action":{"amount":149,"decision":"APPROVE","target":"PO-829681"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R434139","value":false},"state":{"balance":1149,"released":0,"status":"pending","target":"PO-829681"},"support":["R249251","R345034","R434139","R443302","R507495"]}

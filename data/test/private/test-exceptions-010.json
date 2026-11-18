@@ -1,0 +1,1 @@
+{"action":{"amount":133,"decision":"APPROVE","target":"PO-783836"},"complete_needed":true,"counterfactual":{"field":"allow","id":"R981130","value":false},"state":{"balance":1133,"released":0,"status":"pending","target":"PO-783836"},"support":["R143724","R234896","R273097","R284885","R981130"]}

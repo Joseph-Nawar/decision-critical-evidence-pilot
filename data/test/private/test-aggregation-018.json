@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-156609"},"complete_needed":true,"counterfactual":{"field":"amount","id":"R219694","value":26},"state":{"balance":1062,"released":0,"status":"pending","target":"PO-156609"},"support":["R209029","R219694","R538598","R616077","R623851","R743328","R777679"]}

@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-964121"},"complete_needed":true,"counterfactual":{"field":"authorized","id":"R947129","value":true},"state":{"balance":1139,"released":0,"status":"pending","target":"PO-964121"},"support":["R380990","R838559","R844020","R923159","R947129"]}

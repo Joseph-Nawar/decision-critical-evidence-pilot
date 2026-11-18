@@ -1,0 +1,1 @@
+{"action":{"amount":0,"decision":"REJECT","target":"PO-479585"},"complete_needed":false,"counterfactual":{"field":"active","id":"R124195","value":false},"state":{"balance":1118,"released":0,"status":"pending","target":"PO-479585"},"support":["R124195"]}
